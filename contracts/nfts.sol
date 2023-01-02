@@ -2,9 +2,10 @@
 pragma solidity >=0.4.22 <0.9.0;
 import "./ERC721Metadata.sol";
 import "./ERC721.sol";
+import "./ERC721Enumerable.sol";
 
 
-contract nfts is ERC721Metadata, ERC721{
+contract nfts is ERC721Metadata, ERC721Enumerable{
 
     constructor () ERC721Metadata("Alyafie3611", "AL"){
 

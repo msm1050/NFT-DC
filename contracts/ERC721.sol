@@ -30,8 +30,8 @@ contract ERC721{
         return _owner;
     }
  
-
-    function _mint(address to, uint256 tokenId) public {
+    //We use virtual in order to modify or add to the function we use this key word
+    function _mint(address to, uint256 tokenId) public virtual {
 
         require(to != address(0), "Can't mint to Address Zero");
         require(!_exists(tokenId), "Token Already minted");
