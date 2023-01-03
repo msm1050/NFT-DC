@@ -7,11 +7,11 @@ import "./ERC721Enumerable.sol";
 
 contract nfts is ERC721Metadata, ERC721Enumerable{
 
-    constructor () ERC721Metadata("Alyafie3611", "AL"){
+    constructor () ERC721Metadata("Alyafie361", "AL"){
 
     }
 
-    string [] nftTokens;
+    string [] public nftTokens;
     mapping(string => bool) _nftUrlExists;
 
     function mint(string memory _nftUrl) public {

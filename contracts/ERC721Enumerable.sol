@@ -2,6 +2,7 @@
 pragma solidity >=0.4.22 <0.9.0;
 import "./ERC721.sol";
 import "./interfaces/InterfaceERC721Enumerable.sol";
+//import "./ERC165.sol";
 
 contract ERC721Enumerable is ERC721, InterfaceERC721Enumerable{
     //TO Do the other interface function
@@ -9,6 +10,13 @@ contract ERC721Enumerable is ERC721, InterfaceERC721Enumerable{
     mapping(address => uint256[]) private _owenedTokens;
     mapping(uint256 => uint256) private _allTokensByIndex;
     mapping(uint256 => uint256) private _owenedTokensIndex;
+
+    constructor(){
+        _registerInterface(bytes4(keccak256('totalSupply(bytes4)')^
+        keccak256('tokenByIndex(bytes4)')^
+        keccak256('tokenOfOwnerByIndex(bytes4)')
+        ));
+    }
 
     function tokenByIndex(uint256 index) public override view returns(uint256){
         require(index < totalSupply(), "");

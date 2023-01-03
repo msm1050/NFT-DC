@@ -1,14 +1,21 @@
 // SPDX-License-Identifier: MIT
 pragma solidity >=0.4.22 <0.9.0;
 import "./interfaces/ERC721Interface.sol";
+import "./ERC165.sol";
 
-contract ERC721 is ERC721Interface{
+contract ERC721 is ERC721Interface, ERC165{
 
     mapping(uint256 => address) private _tokenOwners;
     //0xAa2B9Cd860d558777Edbb0c9e745b77cD43254b2 how many this address has tokens
     mapping(address => uint256) private _TokenOwnerOwened;
 
     event Transfer(address indexed from, address indexed to, uint256 indexed tokenId);
+
+    constructor(){
+        _registerInterface(bytes4(keccak256('balanceOf(bytes4)')^
+        keccak256('ownerOf(bytes4)')
+        ));
+    }
 
     function _exists(uint256 tokenId) internal view returns(bool){
         address owner = _tokenOwners[tokenId];

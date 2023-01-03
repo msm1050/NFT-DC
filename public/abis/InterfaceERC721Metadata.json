@@ -40,15 +40,15 @@
     "absolutePath": "project:/contracts/interfaces/InterfaceERC721Metadata.sol",
     "exportedSymbols": {
       "InterfaceERC721Metadata": [
-        413
+        525
       ]
     },
-    "id": 414,
+    "id": 526,
     "license": "MIT",
     "nodeType": "SourceUnit",
     "nodes": [
       {
-        "id": 402,
+        "id": 514,
         "literals": [
           "solidity",
           ">=",
@@ -59,7 +59,7 @@
           ".0"
         ],
         "nodeType": "PragmaDirective",
-        "src": "33:32:6"
+        "src": "33:32:7"
       },
       {
         "abstract": false,
@@ -67,39 +67,39 @@
         "contractDependencies": [],
         "contractKind": "interface",
         "fullyImplemented": false,
-        "id": 413,
+        "id": 525,
         "linearizedBaseContracts": [
-          413
+          525
         ],
         "name": "InterfaceERC721Metadata",
         "nodeType": "ContractDefinition",
         "nodes": [
           {
             "functionSelector": "06fdde03",
-            "id": 407,
+            "id": 519,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "name",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 403,
+              "id": 515,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "125:2:6"
+              "src": "125:2:7"
             },
             "returnParameters": {
-              "id": 406,
+              "id": 518,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 405,
+                  "id": 517,
                   "mutability": "mutable",
                   "name": "_name",
                   "nodeType": "VariableDeclaration",
-                  "scope": 407,
-                  "src": "151:19:6",
+                  "scope": 519,
+                  "src": "151:19:7",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -107,10 +107,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 404,
+                    "id": 516,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "151:6:6",
+                    "src": "151:6:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -119,40 +119,40 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "150:21:6"
+              "src": "150:21:7"
             },
-            "scope": 413,
-            "src": "112:60:6",
+            "scope": 525,
+            "src": "112:60:7",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           },
           {
             "functionSelector": "95d89b41",
-            "id": 412,
+            "id": 524,
             "implemented": false,
             "kind": "function",
             "modifiers": [],
             "name": "symbol",
             "nodeType": "FunctionDefinition",
             "parameters": {
-              "id": 408,
+              "id": 520,
               "nodeType": "ParameterList",
               "parameters": [],
-              "src": "195:2:6"
+              "src": "195:2:7"
             },
             "returnParameters": {
-              "id": 411,
+              "id": 523,
               "nodeType": "ParameterList",
               "parameters": [
                 {
                   "constant": false,
-                  "id": 410,
+                  "id": 522,
                   "mutability": "mutable",
                   "name": "_symbol",
                   "nodeType": "VariableDeclaration",
-                  "scope": 412,
-                  "src": "221:21:6",
+                  "scope": 524,
+                  "src": "221:21:7",
                   "stateVariable": false,
                   "storageLocation": "memory",
                   "typeDescriptions": {
@@ -160,10 +160,10 @@
                     "typeString": "string"
                   },
                   "typeName": {
-                    "id": 409,
+                    "id": 521,
                     "name": "string",
                     "nodeType": "ElementaryTypeName",
-                    "src": "221:6:6",
+                    "src": "221:6:7",
                     "typeDescriptions": {
                       "typeIdentifier": "t_string_storage_ptr",
                       "typeString": "string"
@@ -172,27 +172,27 @@
                   "visibility": "internal"
                 }
               ],
-              "src": "220:23:6"
+              "src": "220:23:7"
             },
-            "scope": 413,
-            "src": "180:64:6",
+            "scope": 525,
+            "src": "180:64:7",
             "stateMutability": "view",
             "virtual": false,
             "visibility": "external"
           }
         ],
-        "scope": 414,
-        "src": "69:184:6"
+        "scope": 526,
+        "src": "69:184:7"
       }
     ],
-    "src": "33:220:6"
+    "src": "33:220:7"
   },
   "legacyAST": {
     "attributes": {
       "absolutePath": "project:/contracts/interfaces/InterfaceERC721Metadata.sol",
       "exportedSymbols": {
         "InterfaceERC721Metadata": [
-          413
+          525
         ]
       },
       "license": "MIT"
@@ -210,9 +210,9 @@
             ".0"
           ]
         },
-        "id": 402,
+        "id": 514,
         "name": "PragmaDirective",
-        "src": "33:32:6"
+        "src": "33:32:7"
       },
       {
         "attributes": {
@@ -226,10 +226,10 @@
           "contractKind": "interface",
           "fullyImplemented": false,
           "linearizedBaseContracts": [
-            413
+            525
           ],
           "name": "InterfaceERC721Metadata",
-          "scope": 414
+          "scope": 526
         },
         "children": [
           {
@@ -242,7 +242,7 @@
                 null
               ],
               "name": "name",
-              "scope": 413,
+              "scope": 525,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -255,9 +255,9 @@
                   ]
                 },
                 "children": [],
-                "id": 403,
+                "id": 515,
                 "name": "ParameterList",
-                "src": "125:2:6"
+                "src": "125:2:7"
               },
               {
                 "children": [
@@ -266,7 +266,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_name",
-                      "scope": 407,
+                      "scope": 519,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -278,24 +278,24 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 404,
+                        "id": 516,
                         "name": "ElementaryTypeName",
-                        "src": "151:6:6"
+                        "src": "151:6:7"
                       }
                     ],
-                    "id": 405,
+                    "id": 517,
                     "name": "VariableDeclaration",
-                    "src": "151:19:6"
+                    "src": "151:19:7"
                   }
                 ],
-                "id": 406,
+                "id": 518,
                 "name": "ParameterList",
-                "src": "150:21:6"
+                "src": "150:21:7"
               }
             ],
-            "id": 407,
+            "id": 519,
             "name": "FunctionDefinition",
-            "src": "112:60:6"
+            "src": "112:60:7"
           },
           {
             "attributes": {
@@ -307,7 +307,7 @@
                 null
               ],
               "name": "symbol",
-              "scope": 413,
+              "scope": 525,
               "stateMutability": "view",
               "virtual": false,
               "visibility": "external"
@@ -320,9 +320,9 @@
                   ]
                 },
                 "children": [],
-                "id": 408,
+                "id": 520,
                 "name": "ParameterList",
-                "src": "195:2:6"
+                "src": "195:2:7"
               },
               {
                 "children": [
@@ -331,7 +331,7 @@
                       "constant": false,
                       "mutability": "mutable",
                       "name": "_symbol",
-                      "scope": 412,
+                      "scope": 524,
                       "stateVariable": false,
                       "storageLocation": "memory",
                       "type": "string",
@@ -343,34 +343,34 @@
                           "name": "string",
                           "type": "string"
                         },
-                        "id": 409,
+                        "id": 521,
                         "name": "ElementaryTypeName",
-                        "src": "221:6:6"
+                        "src": "221:6:7"
                       }
                     ],
-                    "id": 410,
+                    "id": 522,
                     "name": "VariableDeclaration",
-                    "src": "221:21:6"
+                    "src": "221:21:7"
                   }
                 ],
-                "id": 411,
+                "id": 523,
                 "name": "ParameterList",
-                "src": "220:23:6"
+                "src": "220:23:7"
               }
             ],
-            "id": 412,
+            "id": 524,
             "name": "FunctionDefinition",
-            "src": "180:64:6"
+            "src": "180:64:7"
           }
         ],
-        "id": 413,
+        "id": 525,
         "name": "ContractDefinition",
-        "src": "69:184:6"
+        "src": "69:184:7"
       }
     ],
-    "id": 414,
+    "id": 526,
     "name": "SourceUnit",
-    "src": "33:220:6"
+    "src": "33:220:7"
   },
   "compiler": {
     "name": "solc",
@@ -378,7 +378,7 @@
   },
   "networks": {},
   "schemaVersion": "3.4.11",
-  "updatedAt": "2023-01-02T07:19:29.242Z",
+  "updatedAt": "2023-01-02T20:28:10.760Z",
   "devdoc": {
     "kind": "dev",
     "methods": {},
